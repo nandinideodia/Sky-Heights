@@ -1,0 +1,31 @@
+.footer {
+    padding: 2rem 2rem;
+    background-color: black;
+    color: white;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top a {
+    display: flex;
+    align-items: center; /* Align icon and text horizontally */
+    text-decoration: none; /* Remove underline from link */
+    color: white; /* Ensure the link text is white */
+    font-size: 1.2rem; /* Set a more balanced font size */
+    margin-bottom: 0.5rem;
+}
+
+.top i {
+    font-size: 1rem; /* Adjust the size of the phone icon */
+    margin-right: 0.8rem; /* Add space between icon and text */
+}
+
+.top a:hover {
+    color: #01959a; /* Change color on hover for better UX */
+}
