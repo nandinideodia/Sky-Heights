@@ -1,0 +1,54 @@
+.about-us {
+    background-color: #f9f9f9;
+    color: #2a2a2a;
+    padding: 2rem;
+  }
+  
+  .about-us-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  
+  .about-us-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+
+  .about-us-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+  }
+  
+  .about-us-list li {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  
+  .about-us-list li::before {
+    content: '✔';
+    color: #01959a;
+    margin-right: 0.5rem;
+  }
+  
+  .about-us-list strong {
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-title {
+      font-size: 2rem;
+    }
+  
+    .about-us-text {
+      font-size: 1rem;
+    }
+  
+    .about-us-subtitle {
+      font-size: 1.5rem;
+    }
+  }
+  

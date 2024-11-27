@@ -1,6 +1,7 @@
 import Hero from '../components/Hero'
 import React from 'react'
 import temple from '../assets/temple.jpg'
+import AboutContent from '../components/AboutContent'
 
 const About = () => {
   return (
@@ -11,6 +12,7 @@ const About = () => {
         title="About Us"
         text = ""
       />
+      <AboutContent />
     </div>
   )
 }
