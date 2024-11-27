@@ -13,7 +13,9 @@ const Navbar = () => {
     return (
         <div>
             <nav className='navbar-items'>
-                <h1 className='navbar-logo'>Sky Heights</h1>
+                <Link to="/" className="navbar-logo" onClick={closeMenu}>
+                    Sky Heights
+                </Link>
                 <div className='menu-icons' onClick={handleClick}>
                     <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
                 </div>
