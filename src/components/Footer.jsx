@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='top'>
         <div>
             <h3>Sky Heights</h3>
-            <p>Your Journey Your Story</p>
+            <p>Your Journey Your Story           skyheightssolution@gmail.com</p>
         </div>
         <div>
             <a href="tel:+919827029519">
